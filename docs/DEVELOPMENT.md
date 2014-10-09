@@ -2,7 +2,8 @@
 
 Follow the instructions in the [Python Quick Start Guide](https://github.com/opennorth/opennorth.ca/wiki/Python-Quick-Start%3A-OS-X) to install Homebrew (if OS X), Git, Python and virtualenvwrapper.
 
-    mkvirtualenv openhousens
+    virtualenv openhousens
+    source /openhousens/bin/activate
     git clone git@github.com:opennorth/openhousens.git
     cd openhousens
 
